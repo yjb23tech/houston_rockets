@@ -1,5 +1,61 @@
+body {
+    background-color: whitesmoke;
+}
+
+.nba-champ-card {
+    width: 900px;
+    margin: 0 auto; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: white;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
+}
+
 .nba-champ-img {
     width: 512px;
     height: 340px;
 }
 
+.nba-champ-content {
+    width: 388px; 
+    height: 340px;
+    text-align: center;
+
+}
+
+.info-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; 
+    width: 270px;
+}
+
+.info-group > img {
+    width: 36px;
+    height: 36px;
+    margin-right: 8px;
+}
+
+.info-group > p {
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* .util-box-blue {
+    border: 2px dotted blue;
+}
+
+.util-box-red {
+    border: 2px dotted maroon;
+}
+
+.util-box-green {
+    border: 2px dotted green; 
+}
+
+.util-box-orange {
+    border: 2px dotted orange; 
+} */
